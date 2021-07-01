@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Runtime.Remoting.Messaging;
 using Pathfinding;
@@ -338,7 +338,7 @@ public class GridGraphKitInspector : Editor
     private void OnSceneGuiDelegate(SceneView sceneView)
     {
 
-        Debug.Log("OnSceneGuiDelegate");
+        //Debug.Log("OnSceneGuiDelegate");
 
         
 
@@ -809,7 +809,7 @@ public class GridGraphKitInspector : Editor
 
     public void OnDrawGizmos()
     {
-        Debug.Log(this.ToString() + "OnDrawGizmos");
+        //Debug.Log(this.ToString() + "OnDrawGizmos");
     }
 
 
