@@ -116,7 +116,14 @@ namespace Pathfinding
 
         public override bool CanTraverse(GraphNode node)
         {
+
+
+            
+
             if (!nnConstraint.Suitable(node)) return false;
+
+
+
 
             return base.CanTraverse(node);
         }
